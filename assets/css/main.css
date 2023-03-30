@@ -1,25 +1,35 @@
+* {
+  padding: 1 px;
+  margin: 1 px;
+  /* background-color: black; */
+}
 body{
   background: white; 
-  /* display: flex; */
 }
 
 header {
-  background-color: white; 
   display: flex;
   flex: 0 1 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: black; 
 }
-li {
-  display: inline;
+ul {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; 
 }
 li a {
-  color: gray;
-}
-h1, h2{
-  background-color: gray; 
+  padding: 5px;
   color: white;
+}
+title, #header-title, h3, #projects p{
+  background-color: black; 
+  color: white;
+  padding: 2
+  px;
 }
 
 #cool-banner{
@@ -27,7 +37,6 @@ h1, h2{
   align-items: flex-start; 
   justify-content: left;
   flex-direction: row;
-  /* justify-content: space-between; */
   height: 25vh;
   background-image: url("/images/portfolio_banner.jpg");
   background-size: cover;
@@ -58,38 +67,68 @@ h1, h2{
   flex-wrap: wrap;
   /* justify-content: space-between; */
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  /* margin: 0 auto;
+  padding: 0 20px; */
+  /* margin-bottom: 20px; */
+  margin: 20px;
 }
 .left-container aside {
   flex-basis: 200px;
   margin-right: 20px;
+  border-right:  3px solid black;
+  text-align: right;
+  /* margin: 0 auto; */
+  padding: 0 20px;
 }
  #about-me p
 {
-  flex-basis: calc(100% - 220px);
+  flex-basis: calc(100% - 240px);
 }
 
 .left-container #projects {
-  flex-basis: calc(100% - 220px);
+  flex-basis: calc(100% - 240px);
 } 
 #projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between; 
+}
+#projects p {
+  background-color: black;
 }
 article{
   height: 35vh;
-  /* background-image: url("/images/surf_report.jpg"); */
   background-size: cover;
   background-position: center;
-  flex-basis: 50%;
-  padding: 20px;
+  flex-basis: 47%;
+  margin: 10px;
+  border: 1px solid black;
+  align-items: center;
+  
+}
+/*********************** debug the shade block *********************/
+article::before {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+  transition: background-color 0.3s ease-in-out; /* add transition effect */ 
+}
+
+.article:hover::before {
+  background-color: transparent; /* remove shade on hover */
+}
+/*********************** debug the shade block *********************/
+
+article:hover {
+  border: 3px solid black;
 }
 #surf-report {
   flex-basis: 100%;
   background-image: url("/images/surf_report.jpg");
+  position: relative;
   /* background-size: cover; */
 }
+
+
 #led-wall {
   background-image: url("/images/led-wall.jpg");
 }
@@ -102,47 +141,14 @@ article{
 #run-body {
   background-image: url("/images/run-body.jpg");
 }
-/* article {
-  flex-basis: calc(100% - 220px);
-} */
-/* #surf-report {
-  flex-wrap: wrap;
-  flex-basis: calc(100% - 220px);
-} */
-/* #led-wall {
-  flex-basis: calc(50% - 220px);
-} */
- /* .two-columns-articles { */
-  /* flex-basis: calc(50% - 10px); */
-  /* margin-right: 20px; */
-  /* display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  flex-basis: calc(100% - 220px);
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px; */
-/* }  */
-
-/*
-article
-{
-  flex-basis: calc(50% - 10px);
-  margin-right: 20px;
+#nav-contacts {
+   /* display:flex; */
+   flex-basis: calc(100% - 240px);
+} 
+#nav-contacts ul li a {
+    padding: 5px;
+    color: black;
 }
-/* main{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 2% 4%;
-} */
-/* article{
-  min-height: 350px;
-  border: 1px solid black;
-} */
-
-/* everything above is mobile */
-
 /* everything below is desktop */
 /* @media screen and (min-width: 768px){
   main{

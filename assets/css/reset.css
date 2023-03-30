@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
   font-size: 100%;
+  background-color: none;
 }
 
 ​input,
@@ -42,7 +43,8 @@ ul {
   list-style: none;
 }
   /* style for debugging */
-/* nav, */
+body,
+  nav,
 header,
 main,
 article,
@@ -52,7 +54,10 @@ h3,
 aside,
 p,
 img,
-footer{
-  /* border: 3px solid black; */
-  /* background-color: gray; */
+section,
+nav,
+ul,
+footer, article {
+  /* border: 3px solid black; 
+  background-color: blue; */
 } 

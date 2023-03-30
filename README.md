@@ -4,7 +4,7 @@
 * Implemented by Inna Fedorenko 
 * Date: March 2023
 * Link to the deployed application:
-* Link to the Git:
+* Link to the Git: https://github.com/InnaFedorenko/portfolio
 * Screenshot:
 
 - - - 

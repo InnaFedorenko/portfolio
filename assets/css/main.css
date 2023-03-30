@@ -1,7 +1,6 @@
 * {
   padding: 1 px;
   margin: 1 px;
-  /* background-color: black; */
 }
 body{
   background: white; 
@@ -41,17 +40,12 @@ title, #header-title, h3, #projects p{
   background-image: url("/images/portfolio_banner.jpg");
   background-size: cover;
   align-items: center;
-  /* background-position: center;
-  justify-content: center; */
   padding: 20px;
 }
 
 #cool-banner h2 {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* justify-content: center; */
   padding: 10px;
   max-width: 500px;
-  /* width: 20%; */
   text-align: match-parent;
 }
 #cool-banner img {
@@ -62,7 +56,7 @@ title, #header-title, h3, #projects p{
   text-align: left;
 }
 
-.left-container {
+.body-container {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between; */
@@ -72,12 +66,11 @@ title, #header-title, h3, #projects p{
   /* margin-bottom: 20px; */
   margin: 20px;
 }
-.left-container aside {
+.body-container aside {
   flex-basis: 200px;
   margin-right: 20px;
   border-right:  3px solid black;
   text-align: right;
-  /* margin: 0 auto; */
   padding: 0 20px;
 }
  #about-me p
@@ -85,7 +78,7 @@ title, #header-title, h3, #projects p{
   flex-basis: calc(100% - 240px);
 }
 
-.left-container #projects {
+.body-container #projects {
   flex-basis: calc(100% - 240px);
 } 
 #projects {
@@ -149,8 +142,9 @@ article:hover {
     padding: 5px;
     color: black;
 }
-/* everything below is desktop */
-/* @media screen and (min-width: 768px){
+
+/* everything below is mobile */
+/* @media screen and (min-width: 768px){ 
   main{
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,4 +160,4 @@ article:hover {
   #article-3{
     flex: 0 1 100%;
   }
-} */
+} 

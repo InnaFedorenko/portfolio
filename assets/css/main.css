@@ -59,12 +59,8 @@ title, #header-title, h3, #projects p{
 .body-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  max-width: 1200px;
-  /* margin: 0 auto;
-  padding: 0 20px; */
-  /* margin-bottom: 20px; */
   margin: 20px;
+  /* min-width: 450px; */
 }
 .body-container aside {
   flex-basis: 200px;
@@ -90,7 +86,7 @@ title, #header-title, h3, #projects p{
   background-color: black;
 }
 article{
-  height: 35vh;
+  height: 45vh;
   background-size: cover;
   background-position: center;
   flex-basis: 47%;
@@ -144,7 +140,8 @@ article:hover {
 }
 
 /* everything below is mobile */
-/* @media screen and (min-width: 768px){ 
+
+/* @media screen and (min-width: 480px){ 
   main{
     flex-direction: row;
     flex-wrap: wrap;

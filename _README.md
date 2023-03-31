@@ -3,9 +3,14 @@
 
 * Implemented by Inna Fedorenko 
 * Date: March 2023
-* Link to the deployed application:
-* Link to the Git: https://github.com/InnaFedorenko/portfolio
-* Screenshot:
+* [Git Repository](https://github.com/InnaFedorenko/portfolio);
+
+* [Portfolio site](https://innafedorenko.github.io/portfolio/);
+
+
+### Screenshot
+
+![Screenshot](innafedorenko.github.io_portfolio_.png)
 
 - - - 
 ## Task Description

@@ -37,7 +37,7 @@ title, #header-title, h3, #projects p{
   justify-content: left;
   flex-direction: row;
   height: 25vh;
-  background-image: url("images/portfolio_banner.jpg");
+  background-image: url("/images/portfolio_banner.jpg");
   background-size: cover;
   align-items: center;
   padding: 20px;
@@ -112,23 +112,23 @@ article:hover {
 }
 #surf-report {
   flex-basis: 100%;
-  background-image: url("images/surf_report.jpg");
+  background-image: url("/images/surf_report.jpg");
   position: relative;
   /* background-size: cover; */
 }
 
 
 #led-wall {
-  background-image: url("images/led-wall.jpg");
+  background-image: url("/images/led-wall.jpg");
 }
 #calculator {
-  background-image: url("images/calculator.jpg");
+  background-image: url("/images/calculator.jpg");
 }
 #pastel-puzzles {
-  background-image: url("images/pastel-puzzles.jpg");
+  background-image: url("/images/pastel-puzzles.jpg");
 }
 #run-body {
-  background-image: url("images/run-body.jpg");
+  background-image: url("/images/run-body.jpg");
 }
 #nav-contacts {
    /* display:flex; */
